@@ -1,0 +1,39 @@
+.header{
+    background-color: #333;
+    color: white;
+}
+#main-content{
+    padding: 20px;
+}
+#main-content p{
+    color: #555;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nav > li{
+    display: inline;
+    gap: 10px;
+    margin-right:20px;
+}
+
+a[target] {
+    color: red;
+}
+a:hover{
+    color: green;
+}
+
+#main-content p:first-child{
+    font-size: 1.5em;
+}
+#main-content p:last-child{
+    color: blue;
+}
+
+.footer::before{
+    content:"Footer Content"
+
+}
+.footer{
+    background-color: #ddd;
+    text-align: center;
+}

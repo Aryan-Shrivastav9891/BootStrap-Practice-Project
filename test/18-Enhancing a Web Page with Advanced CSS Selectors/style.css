@@ -1,0 +1,79 @@
+
+        
+
+        /* Body styling */
+     
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header styling using class selector */
+
+        /* .header{
+            background-color: #333;
+            color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        } */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Styling for links with an attribute selector */
+   
+
+        a[target="_blank"] {
+            background-color: yellow;
+        }
+        
+        /* Styling for paragraphs that are directly after a header */
+        
+        .header+ p{
+            font-size: 1.5em;
+        }
+
+        h1 + p {
+            color: green;
+            font-style: italic;
+        }
+
+        .header+ p + h1{
+            color: green;
+            font-style: italic;
+        }
+         ul li:not(:first-child) {
+            color: red;
+        }
+ 
+        ul ~ p {
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: blue;
+        }
+
+        /* Styling list items but not the first child */
+   
+
+        /* Styling any paragraph that follows a list */
+    
+        /* Hover effect on links using pseudo-class */
+      
+
+        /* Footer styling using class selector */
+        .footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

@@ -1,0 +1,30 @@
+body{
+    padding: 25px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  
+  #news{
+    font-family: Georgia, serif;
+    padding: 20px;
+  }
+  .article{
+    border-bottom: 1px solid #b2babb;
+    padding: 10px;
+  }
+  
+  .article h3{
+    color:#1a5276;
+  }
+  .article p{
+    /*color: ;*/
+    font-size: 16px;
+  }
+  .article p.author{
+    color: #6d6608;
+    font-weight: bold;
+  }
+  .article .author + p{
+    color: red;
+  }

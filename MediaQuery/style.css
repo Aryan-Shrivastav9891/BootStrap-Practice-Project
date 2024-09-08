@@ -1,0 +1,41 @@
+/* mobile forst aproach */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: yellow;
+    height: 100vh;
+}
+
+/* laeger screen */
+
+@media (min-width: 375px) {
+    .header{
+        background-color: green;
+    }
+}
+
+/* tablets */
+
+@media (min-width: 768px) {
+    .header{
+        background-color: red;
+    }
+}
+
+/* small desktop */
+
+@media (min-width: 1080px) {
+    .header{
+        background-color: blue;
+    }
+}
+
+/* larger desk */
+
+@media (min-width: 1440px) {
+    .header{
+        background-color: pink;
+    }
+}

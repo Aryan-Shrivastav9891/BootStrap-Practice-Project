@@ -1,0 +1,19 @@
+article > h2{
+      color: rgb(0, 0, 139);
+}
+nav > ul >li{
+    font-weight: bold;
+}
+article > h2 + p{
+    font-style: italic;
+}
+.highlight ~ li{
+    color: rgb(0, 128, 0);
+}
+a[href^="https"]::after{
+    content: "(secure)";
+    font-size: 0.8em;
+}
+table tr:nth-child(odd){
+    background-color: rgb(211, 211, 211);
+}

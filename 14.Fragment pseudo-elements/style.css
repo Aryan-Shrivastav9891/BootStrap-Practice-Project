@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding:; */
+    background-color: #f9f9f9;
+    margin: 0px;
+    padding:0px;
+}
+
+#recipe-container{
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.title{
+    font-size: 2em;
+    color: #8b4513;
+}
+p ,ol , ul{
+    font-size: 1me;
+    line-height: 1.5;
+    align-items: justify;
+}
+
+/* Custom styling using ::selection */
+
+::selection{
+    background-color: #ffebb5;
+    color: #8b4513;
+}
+::-moz-selection{
+    background-color: red;
+    color: white;
+}
